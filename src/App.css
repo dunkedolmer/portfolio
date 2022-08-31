@@ -64,4 +64,6 @@ nav.navbar .navbar-nav .nav-link.navbar-link
   color: #fff !important;
   letter-spacing: 2px;
   padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
 }
