@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
+import logo_fb from '../assets/img/logo_fb_test.svg'
+import logo_ln from '../assets/img/logo_ln.svg'
+import logo_github from '../assets/img/logo_github.svg'
 import logo from '../assets/img/logo.svg';
 
 function NavBar()
@@ -50,9 +53,9 @@ function NavBar()
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={''} alt=""></img></a>
-                            <a href="#"><img src={''} alt=""></img></a>
-                            <a href="#"><img src={''} alt=""></img></a>
+                            <a href="#"><img src={logo_fb} alt=""></img></a>
+                            <a href="#"><img src={logo_ln} alt=""></img></a>
+                            <a href="#"><img src={logo_github} alt=""></img></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>
